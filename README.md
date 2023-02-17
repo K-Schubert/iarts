@@ -27,5 +27,17 @@ Using code from Deforum https://github.com/deforum-art.
 ![AI dreams #1](./media/stable_diff_video_1.gif)
 ![AI dreams #2](./media/stable_diff_video_2.gif)
 
+### Dreambooth
+Using code from https://github.com/ShivamShrirao/diffusers/tree/main/examples/dreambooth.
+
+![Dreambooth 1](./media/dreambooth_1.pdf)
+![Dreambooth 2](./media/dreambooth_2.pdf)
+![Dreambooth 3](./media/dreambooth_3.pdf)
+![Dreambooth 4](./media/dreambooth_4.pdf)
+![Dreambooth 5](./media/dreambooth_5.pdf)
+![Dreambooth 6](./media/dreambooth_6.pdf)
+![Dreambooth 7](./media/dreambooth_7.pdf)
+![Dreambooth 8](./media/dreambooth_8.pdf)
+
 ### Thin-Plate-Spline Motion Animation
 Using code from https://github.com/yoyo-nb/Thin-Plate-Spline-Motion-Model.
