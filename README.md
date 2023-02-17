@@ -10,18 +10,18 @@ Code will be committed shortly. In the meantime here are some of the outputs I'v
 Code is from https://github.com/nkolkin13/NeuralNeighborStyleTransfer. Style is transferred to a single image or multiple keyframes for a video, then applied to whole sequence of images using EbSynth to generate a video.
 
 <p align="center">
-	<img width="250" height="250" src="https://github.com/K-Schubert/iarts/blob/main/media/nnst_tiger.gif">
-	<img width="250" height="250" src="https://github.com/K-Schubert/iarts/blob/main/media/nnst_cat.gif">
+	<img width="300" height="530" src="https://github.com/K-Schubert/iarts/blob/main/media/nnst_tiger.gif">
+	<img width="300" height="530" src="https://github.com/K-Schubert/iarts/blob/main/media/nnst_cat.gif">
 </p>
 
 ### Stable Diffusion
 Using Keras Stable Diffusion code from https://keras.io/guides/keras_cv/generate_images_with_stable_diffusion/ and https://github.com/CompVis/stable-diffusion.
 
 <p align="center">
-	<img width="150" height="150" src="https://github.com/K-Schubert/iarts/blob/main/media/budapest_vangogh_1.png">
-	<img width="150" height="150" src="https://github.com/K-Schubert/iarts/blob/main/media/geneva_monet_1.png">
-	<img width="150" height="150" src="https://github.com/K-Schubert/iarts/blob/main/media/geneva_munch_1.png">
-	<img width="150" height="150" src="https://github.com/K-Schubert/iarts/blob/main/media/geneva_vangogh_1.png">
+	<img width="250" height="250" src="https://github.com/K-Schubert/iarts/blob/main/media/budapest_vangogh_1.png">
+	<img width="250" height="250" src="https://github.com/K-Schubert/iarts/blob/main/media/geneva_monet_1.png">
+	<img width="250" height="250" src="https://github.com/K-Schubert/iarts/blob/main/media/geneva_munch_1.png">
+	<img width="250" height="250" src="https://github.com/K-Schubert/iarts/blob/main/media/geneva_vangogh_1.png">
 </p>
 
 ### Stable Diffusion Videos
@@ -29,8 +29,8 @@ Using code from Deforum https://github.com/deforum-art.
 
 <p align="center">
 	<img width="250" height="250" src="https://github.com/K-Schubert/iarts/blob/main/media/stable_diff_atom.gif">
-	<img width="250" height="250" src="https://github.com/K-Schubert/iarts/blob/main/media/stable_diff_video_1.gif">
-	<img width="250" height="250" src="https://github.com/K-Schubert/iarts/blob/main/media/stable_diff_video_2.gif">
+	<img width="450" height="300" src="https://github.com/K-Schubert/iarts/blob/main/media/stable_diff_video_1.gif">
+	<img width="450" height="300" src="https://github.com/K-Schubert/iarts/blob/main/media/stable_diff_video_2.gif">
 </p>
 
 ### Dreambooth
