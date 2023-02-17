@@ -10,8 +10,8 @@ Code will be committed shortly. In the meantime here are some of the outputs I'v
 Code is from https://github.com/nkolkin13/NeuralNeighborStyleTransfer. Style is transferred to a single image or multiple keyframes for a video, then applied to whole sequence of images using EbSynth to generate a video.
 
 <p align="center">
-	<img width="300" height="530" src="https://github.com/K-Schubert/iarts/blob/main/media/nnst_tiger.gif">
-	<img width="300" height="530" src="https://github.com/K-Schubert/iarts/blob/main/media/nnst_cat.gif">
+	<img width="530" height="300" src="https://github.com/K-Schubert/iarts/blob/main/media/nnst_tiger.gif">
+	<img width="530" height="300" src="https://github.com/K-Schubert/iarts/blob/main/media/nnst_cat.gif">
 </p>
 
 ### Stable Diffusion
