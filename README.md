@@ -7,18 +7,25 @@ Code will be committed shortly. In the meantime here are some of the outputs I'v
 
 
 ### Neural Neighbor Style Transfer
+Code is from https://github.com/nkolkin13/NeuralNeighborStyleTransfer. Style is transferred to a single image or multiple keyframes for a video, then applied to whole sequence of images using EbSynth to generate a video.
+
 ![NNST applied to a tiger](./media/nnst_tiger.gif)
 ![NNST applied to a cat](./media/nnst_cat.gif)
 
 ### Stable Diffusion
+Using Keras Stable Diffusion code from https://keras.io/guides/keras_cv/generate_images_with_stable_diffusion/ and https://github.com/CompVis/stable-diffusion.
+
 ![Budapest in starry night style](./media/budapest_vangogh_1.pdf)
 ![Geneva in Monet style](./media/budapest_monet_1.pdf)
 ![Geneva in Munch style](./media/budapest_munch_1.pdf)
 ![Geneva in starry night style](./media/budapest_vangogh_1.pdf)
 
 ### Stable Diffusion Videos
+Using code from Deforum https://github.com/deforum-art.
+
 ![The journey of an atom with stable diffusion](./media/stable_diff_atom.gif)
 ![AI dreams #1](./media/stable_diff_video_1.gif)
 ![AI dreams #2](./media/stable_diff_video_2.gif)
 
-### Thin-Plate-Spline Animation
+### Thin-Plate-Spline Motion Animation
+Using code from https://github.com/yoyo-nb/Thin-Plate-Spline-Motion-Model.
