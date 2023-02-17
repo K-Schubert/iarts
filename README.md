@@ -30,14 +30,14 @@ Using code from Deforum https://github.com/deforum-art.
 ### Dreambooth
 Using code from https://github.com/ShivamShrirao/diffusers/tree/main/examples/dreambooth.
 
-![Dreambooth 1](./media/dreambooth_1.pdf)
-![Dreambooth 2](./media/dreambooth_2.pdf)
-![Dreambooth 3](./media/dreambooth_3.pdf)
-![Dreambooth 4](./media/dreambooth_4.pdf)
-![Dreambooth 5](./media/dreambooth_5.pdf)
-![Dreambooth 6](./media/dreambooth_6.pdf)
-![Dreambooth 7](./media/dreambooth_7.pdf)
-![Dreambooth 8](./media/dreambooth_8.pdf)
+![Dreambooth 1](./media/dreambooth_1.jpg)
+![Dreambooth 2](./media/dreambooth_2.jpg)
+![Dreambooth 3](./media/dreambooth_3.jpg)
+![Dreambooth 4](./media/dreambooth_4.jpg)
+![Dreambooth 5](./media/dreambooth_5.jpg)
+![Dreambooth 6](./media/dreambooth_6.jpg)
+![Dreambooth 7](./media/dreambooth_7.jpg)
+![Dreambooth 8](./media/dreambooth_8.jpg)
 
 ### Thin-Plate-Spline Motion Animation
 Using code from https://github.com/yoyo-nb/Thin-Plate-Spline-Motion-Model.
