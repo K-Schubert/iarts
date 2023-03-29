@@ -20,6 +20,7 @@ from IPython import display
 import gc, math, os, pathlib, subprocess, sys, time
 import cv2
 import numpy as np
+from numpy import argsort
 import pandas as pd
 import random
 import re
@@ -1256,3 +1257,25 @@ def render_interpolation(device, args, model, anim_args, animation_prompts):
     #clear init_c
     args.init_c = None
  
+def render_video(image_folder, video_name):
+
+    fps = 24
+
+    images = [img for img in os.listdir(image_folder) if img.endswith(".png")]
+    sort_index = argsort([x.replace(".png", "") for x in images])
+    images = [images[i] for i in sort_index]
+    frame = cv2.imread(os.path.join(image_folder, images[0]))
+    height, width, layers = frame.shape
+
+    video = cv2.VideoWriter(video_name, 0, fps, (width,height))
+
+    for image in images:
+        video.write(cv2.imread(os.path.join(image_folder, image)))
+
+    cv2.destroyAllWindows()
+    video.release()
+
+    def convert_avi_to_mp4(avi_file_path, output_name):
+        os.popen("ffmpeg -i '{input}' -ac 2 -b:v 2000k -c:a aac -c:v libx264 -b:a 160k -vprofile high -bf 0 -strict experimental -f mp4 '{output}.mp4'".format(input = avi_file_path, output = output_name))
+
+    convert_avi_to_mp4(video_name, video_name.replace(".avi", ""))
