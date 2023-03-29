@@ -143,7 +143,7 @@ with open('base_prompts.txt', 'r') as file:
     base_prompts = file.read()
 
 generation_prompt = f"{{rococo {prompt} headdress | {prompt} cornucopia | macro {prompt} | {prompt} Cthulhu | {prompt} nuclear explosion | {prompt} mushroom cloud | Hubble {prompt} nebula | {prompt} infestation | steampunk {prompt} | magic rubber {prompt} | psychedelic {prompt} | {prompt} couture}}"
-base_prompt = base_prompts.replace("{x}", generation_prompt)
+base_prompts = base_prompts.replace("{x}", generation_prompt)
 
 # CHECK DIFF WITH motion["keyframe_frames"] from generate_motion()
 key_frames = list(np.arange(max_frames)[::100])
@@ -195,9 +195,10 @@ if __name__ == '__main__':
     else:
         render_image_batch(args)  
 
-    images_folder = os.path.join(output_path, time.strftime('%Y-%m'), args.batch_name)
+    image_folder = os.path.join(output_path, time.strftime('%Y-%m'), args.batch_name)
+    video_name = os.path.join(output_path, "videos", f"test_{args.timestring}_{cli_args.prompt}.avi")
 
-    render_video(images_folder, f"{args.timestring}_{args.prompt}")
+    render_video(image_folder, video_name)
 
     print("Generation finished")
 
