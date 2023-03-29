@@ -25,6 +25,10 @@ Using Keras Stable Diffusion code from https://keras.io/guides/keras_cv/generate
 </p>
 
 ### Stable Diffusion Videos
+To do:
+- Add CLI args for stable diff hyperparams
+- Add multi-GPU support
+
 The base Stable Diffusion code is from Deforum https://github.com/deforum-art. The code was refactored and updated to include motion movement in the video distributed among randomly selected keyframes, automatic prompt enhancement from a base prompt using the ```base_prompts.txt``` file and the option for single/multi GPU generation using CLI args.
 
 <p align="center">
@@ -44,7 +48,7 @@ source ./venv/bin/activate
 ./venv/bin/python ./deforum_cuda_v04_singleGPU.py --device 0 --max_frames 1000 --prompt cauliflower
 ```
 
-The ```device``` argument selects the GPU on which the model will be loaded, the ```max_frames``` argument defines how many frames in total there will be in the animation and the ```prompt``` arguments defines a base prompt which will be randomely enriched by sampling qualifiers from ```base_prompts.txt```.
+The ```device``` argument selects the GPU on which the model will be loaded, the ```max_frames``` argument defines how many frames in total there will be in the animation and the ```prompt``` arguments defines a base prompt which will be randomely enriched by sampling qualifiers from ```base_prompts.txt```. A mp4 video is generated from the images in the ```content/output/<year>-<month>/<timestamp>_<prompt>``` folder.
 
 ### Dreambooth
 Using code from https://github.com/ShivamShrirao/diffusers/tree/main/examples/dreambooth.
