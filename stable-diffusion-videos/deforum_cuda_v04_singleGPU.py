@@ -195,6 +195,10 @@ if __name__ == '__main__':
     else:
         render_image_batch(args)  
 
+    images_folder = os.path.join(output_path, time.strftime('%Y-%m'), args.batch_name)
 
+    render_video(images_folder, f"{args.timestring}_{args.prompt}")
+
+    print("Generation finished")
 
         
