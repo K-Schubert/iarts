@@ -26,10 +26,13 @@ Using Keras Stable Diffusion code from https://keras.io/guides/keras_cv/generate
 
 ### Stable Diffusion Videos
 To do:
-- Add CLI args for stable diff hyperparams
+- Add dynamic prompt generator model
+- Add CLI args for stable-diff hyperparams
+- Add CLI args for motion? Or from file?
 - Add multi-GPU support
+- Update to newer stable-diff version
 
-The base Stable Diffusion code is from Deforum https://github.com/deforum-art. The code was refactored and updated to include motion movement in the video distributed among randomly selected keyframes, automatic prompt enhancement from a base prompt using the ```base_prompts.txt``` file and the option for single/multi GPU generation using CLI args.
+The base Stable Diffusion code is from [Deforum](https://github.com/deforum-art). The code was refactored and updated to include motion movement in the video distributed among randomly selected keyframes, automatic prompt enhancement from a base prompt using the ```base_prompts.txt``` file, the option for single/multi GPU generation using CLI args, mp4 video creation from image frames and image upsampling using [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN).
 
 <p align="center">
 	<img width="250" height="250" src="https://github.com/K-Schubert/iarts/blob/main/media/stable_diff_atom.gif">
@@ -45,10 +48,13 @@ source ./venv/bin/activate
 ./venv/bin/python -m pip install --upgrade pip
 ./venv/bin/python -m pip install -r requirements.txt
 
-./venv/bin/python ./deforum_cuda_v04_singleGPU.py --device 0 --max_frames 1000 --prompt cauliflower
+./venv/bin/python ./deforum_cuda_v04_singleGPU.py --device 0 --max_frames 1000 --prompt cauliflower --upscale
 ```
 
-The ```device``` argument selects the GPU on which the model will be loaded, the ```max_frames``` argument defines how many frames in total there will be in the animation and the ```prompt``` arguments defines a base prompt which will be randomely enriched by sampling qualifiers from ```base_prompts.txt```. A mp4 video is generated from the images in the ```content/output/<year>-<month>/<timestamp>_<prompt>``` folder.
+#### Single GPU inference
+The ```device``` argument selects the GPU on which the model will be loaded, the ```max_frames``` argument defines how many frames in total there will be in the animation and the ```prompt``` arguments defines a base prompt which will be randomely enriched by sampling qualifiers from ```base_prompts.txt```. A mp4 video is generated from the images in the ```content/output/<year>-<month>/<timestamp>_<prompt>``` folder. You can define the ```upscale``` argument (default is ```False```) to upsample the images and resulting video using Real-ESRGAN.
+
+#### Multi GPU inference
 
 ### Dreambooth
 Using code from https://github.com/ShivamShrirao/diffusers/tree/main/examples/dreambooth.
