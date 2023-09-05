@@ -15,6 +15,8 @@ Code is from https://github.com/nkolkin13/NeuralNeighborStyleTransfer. Style is 
 </p>
 
 ### Stable Diffusion
+
+#### Stable Diffusion 1.4
 Using Keras Stable Diffusion code from https://keras.io/guides/keras_cv/generate_images_with_stable_diffusion/ and https://github.com/CompVis/stable-diffusion.
 
 <p align="center">
@@ -24,8 +26,8 @@ Using Keras Stable Diffusion code from https://keras.io/guides/keras_cv/generate
 	<img width="250" height="250" src="https://github.com/K-Schubert/iarts/blob/main/media/geneva_vangogh_1.png">
 </p>
 
-### Stable Diffusion
-Using LORA adapters with Stable Diffusion 1.5.
+#### Stable Diffusion 1.5
+Using LORA adapters with Stable Diffusion 1.5. I've tested stylizing images with ukiyo-e style, impasto style and oilpainting style.
 
 <p align="center">
 	<img width="250" height="250" src="https://github.com/K-Schubert/iarts/blob/main/media/ukiyoe_1.png">
