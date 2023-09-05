@@ -24,6 +24,21 @@ Using Keras Stable Diffusion code from https://keras.io/guides/keras_cv/generate
 	<img width="250" height="250" src="https://github.com/K-Schubert/iarts/blob/main/media/geneva_vangogh_1.png">
 </p>
 
+### Stable Diffusion
+Using LORA adapters with Stable Diffusion 1.5.
+
+<p align="center">
+	<img width="250" height="250" src="https://github.com/K-Schubert/iarts/blob/main/media/ukiyoe_1.png">
+	<img width="250" height="250" src="https://github.com/K-Schubert/iarts/blob/main/media/ukiyoe_2.png">
+	<img width="250" height="250" src="https://github.com/K-Schubert/iarts/blob/main/media/ukiyoe_3.png">
+	<img width="250" height="250" src="https://github.com/K-Schubert/iarts/blob/main/media/impasto_1.png">
+	<img width="250" height="250" src="https://github.com/K-Schubert/iarts/blob/main/media/impasto_2.png">
+	<img width="250" height="250" src="https://github.com/K-Schubert/iarts/blob/main/media/impasto_3.png">
+	<img width="250" height="250" src="https://github.com/K-Schubert/iarts/blob/main/media/oilpainting_1.png">
+	<img width="250" height="250" src="https://github.com/K-Schubert/iarts/blob/main/media/oilpainting_2.png">
+	<img width="250" height="250" src="https://github.com/K-Schubert/iarts/blob/main/media/oilpainting_3.png">
+</p>
+
 ### Stable Diffusion Videos
 To do:
 - Add dynamic prompt generator model
