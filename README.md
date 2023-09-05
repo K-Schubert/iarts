@@ -32,12 +32,12 @@ To do:
 - Add multi-GPU support
 - Update to newer stable-diff version
 
-The base Stable Diffusion code is from [Deforum](https://github.com/deforum-art). The code was refactored and updated to include motion movement in the video distributed among randomly selected keyframes, automatic prompt enhancement from a base prompt using the ```base_prompts.txt``` file, the option for single/multi GPU generation using CLI args, mp4 video creation from image frames and image upsampling using [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN).
+The base Stable Diffusion code is from [Deforum](https://github.com/deforum-art). The code was refactored and updated to include motion movement in the video distributed among randomly selected keyframes, automatic prompt enhancement from a base prompt using the ```base_prompts.txt``` file, the option for single/multi GPU generation using CLI args, mp4 video creation from image frames and image upsampling using [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) (512x512->2048x2048).
 
 <p align="center">
 	<img width="250" height="250" src="https://github.com/K-Schubert/iarts/blob/main/media/stable_diff_atom.gif">
-	<img width="450" height="300" src="https://github.com/K-Schubert/iarts/blob/main/media/stable_diff_video_1.gif">
-	<img width="450" height="300" src="https://github.com/K-Schubert/iarts/blob/main/media/stable_diff_video_2.gif">
+	<img width="250" height="250" src="https://github.com/K-Schubert/iarts/blob/main/media/stable_diff_video_1.gif">
+	<img width="250" height="250" src="https://github.com/K-Schubert/iarts/blob/main/media/stable_diff_video_2.gif">
 </p>
 
 To run the ```deforum_cuda_v04_singleGPU.py``` file run the following commands:
@@ -56,6 +56,15 @@ The ```device``` argument selects the GPU on which the model will be loaded, the
 
 #### Multi GPU inference
 
+### Stable Diffusion Videos with Interpolation
+Using code from [Latent Stable Diffusion](https://github.com/andreasjansson/cog-stable-diffusion), [FILM](https://github.com/google-research/frame-interpolation) and [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN).
+
+<p align="center">
+	 <img width="250" height="250" src="https://github.com/K-Schubert/iarts/blob/main/media/monoliths_1_0.gif">
+	 <img width="250" height="250" src="https://github.com/K-Schubert/iarts/blob/main/media/monoliths_1_1.gif">
+	 <img width="250" height="250" src="https://github.com/K-Schubert/iarts/blob/main/media/monoliths_1_2.gif">
+</p>
+
 ### Dreambooth
 Using code from https://github.com/ShivamShrirao/diffusers/tree/main/examples/dreambooth.
 
@@ -67,7 +76,6 @@ Using code from https://github.com/ShivamShrirao/diffusers/tree/main/examples/dr
 	 <img width="150" height="270" src="https://github.com/K-Schubert/iarts/blob/main/media/dreambooth_5.jpg">
 	 <img width="150" height="270" src="https://github.com/K-Schubert/iarts/blob/main/media/dreambooth_6.jpg">
 	 <img width="150" height="270" src="https://github.com/K-Schubert/iarts/blob/main/media/dreambooth_7.jpg">
-	 <img width="150" height="270" src="https://github.com/K-Schubert/iarts/blob/main/media/dreambooth_8.jpg">
 </p>
 
 ### Thin-Plate-Spline Motion Animation
