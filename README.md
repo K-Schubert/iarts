@@ -6,14 +6,14 @@ I've used code from amazing projects (cited below) and adapted them to my workfl
 ### Illusion Diffusion
 
 <p align="center">
-	 <img width="256" height="256" src="https://github.com/K-Schubert/iarts/blob/main/media/illusion_1.jpg">
-	 <img width="256" height="256" src="https://github.com/K-Schubert/iarts/blob/main/media/illusion_2.jpg">
-	 <img width="256" height="256" src="https://github.com/K-Schubert/iarts/blob/main/media/illusion_3.jpg">
-	 <img width="256" height="256" src="https://github.com/K-Schubert/iarts/blob/main/media/illusion_4.jpg">
-	 <img width="256" height="256" src="https://github.com/K-Schubert/iarts/blob/main/media/illusion_5.jpg">
-	 <img width="256" height="256" src="https://github.com/K-Schubert/iarts/blob/main/media/illusion_6.jpg">
-	 <img width="256" height="256" src="https://github.com/K-Schubert/iarts/blob/main/media/illusion_7.jpg">
-	 <img width="256" height="256" src="https://github.com/K-Schubert/iarts/blob/main/media/illusion_8.jpg">
+	 <img width="256" height="256" src="https://github.com/K-Schubert/iarts/blob/main/media/illusion_1.png">
+	 <img width="256" height="256" src="https://github.com/K-Schubert/iarts/blob/main/media/illusion_2.png">
+	 <img width="256" height="256" src="https://github.com/K-Schubert/iarts/blob/main/media/illusion_3.png">
+	 <img width="256" height="256" src="https://github.com/K-Schubert/iarts/blob/main/media/illusion_4.png">
+	 <img width="256" height="256" src="https://github.com/K-Schubert/iarts/blob/main/media/illusion_5.png">
+	 <img width="256" height="256" src="https://github.com/K-Schubert/iarts/blob/main/media/illusion_6.png">
+	 <img width="256" height="256" src="https://github.com/K-Schubert/iarts/blob/main/media/illusion_7.png">
+	 <img width="256" height="256" src="https://github.com/K-Schubert/iarts/blob/main/media/illusion_8.png">
 </p>
 
 ### Dreambooth + ControlNet + LoRA + FILM
@@ -31,7 +31,7 @@ I've used code from amazing projects (cited below) and adapted them to my workfl
 ### Wabi-Sabi
 
 <p align="center">
-	 <img width="960" height="540" src="https://github.com/K-Schubert/iarts/blob/main/media/wabi_sabi.gif">
+	 <img width="480" height="270" src="https://github.com/K-Schubert/iarts/blob/main/media/wabi_sabi.gif">
 </p>
 
 ### Stable Diffusion Videos with Interpolation
