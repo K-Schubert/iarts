@@ -3,6 +3,12 @@ A repo to showcase my IARTS projects (AI generated art, style transfer, stable d
 
 I've used code from amazing projects (cited below) and adapted them to my workflow in Python. Luckily enough I was able to use a large DL research server to experiment with these great models.
 
+## Upcoming Projects
+
+- Layered Mask Photography
+- Hand Sketching, Stable Diffusion Inpainting and Video Animation
+- Aging from Baby to Old Man
+
 ### Illusion Diffusion
 
 <p align="center">
